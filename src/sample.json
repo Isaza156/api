@@ -1,0 +1,13 @@
+[
+    {          
+       "Dia": 7,
+       "Mes": 9,
+       "Hora": 9,
+       "Servicio":1, 
+       "Cedula": 1234567890,
+       "Nombre": "David Rodriguez",
+       "Telefono": 3006068899,
+       "Placa": "JSX007",
+       "id": 1
+    }   
+]

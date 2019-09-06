@@ -1,0 +1,31 @@
+Lo primero al iniciar es crear la carpeta.
+Luego con npm init --yes creamos el package.json para describir el proyecto
+Luego instalamos los modulos:
+npm i express mongoose morgan cors
+npm i nodemon -D
+Luego creamos la carpeta src que contiene el codigo de toda la aplicacion
+luego creamos el index.js y alli vamos a llamar el puerto y requerir express
+despues podemos ejecutar:
+node src/index.js 
+con eso levantamos el servidor y verificamos que esté bien
+middlewares: funcion que procesa datos antes de que nuestro servidor los reciba ( morgan )
+app.use(express.urlencoded({extended: false})); soporta datos que vienen desde formularios, datos sencillos.
+process.env.PORT validamos si existe un puerto o no, sino toma por defecto el 3000
+la peticion GET envia al navegador algo
+la peticion POST le decimos al servidor que queremos almacenar algo
+
+en postman:
+para el post:
+en header:
+key: va a tener Content-Type que especifica el tipo de contenido que va a enviarle
+value: application/json va a tratar de enviarle un json
+
+en body:
+le damos donde dice row
+podemos crear el json
+
+despues de crearlo y enviarlo podemos ver en el visual en la consola que despues del puerto aparece el json que se acaba de enviar, es decir que se está recibiendo
+
+hemos instalado underscore, es una biblioteca que tiene ciertas funciones para procesar datos
+con el guion bajo _ lo que indico son metodos que se tienen
+el _.each empieza a recorrer el arreglo.
